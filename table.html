@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <!-- 表格 -->
+      <table border="=1" width="400px" height="100px">
+        <!-- 一般使用css美化表格 -->
+        <tr>
+            <!-- 行 -->
+            <td>单元格</td>
+            <!-- 列 -->
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+      </table>
+      <!-- table>tr*4>td*3{n}  行列以及初始单元格内容n-->
+
+      <hr color="blue" width="400px" size="5px" align="left">
+
+      <!-- 合并单元格 水平合并用colspan保留左边删除右边 垂直合并用rowspan 保留上面删除下边-->
+       <table border="1" width="400px" heigh="100px">
+        <tr>
+            <td>excle1</td>
+            <!-- <td>excle2</td> -->
+            <td colspan="3">excle3</td>
+            <!-- <td>excle4</td> -->
+        </tr>
+        <tr>
+            <td>excle5</td>
+            <td>excle6</td>
+            <td>excle7</td>
+            <td>excle8</td>
+        </tr>
+        <tr>
+            <!-- <td>excle9</td> -->
+            <td colspan="2">excle10</td>
+            <td rowspan="3">excle11</td>
+            <td>excle12</td>
+        </tr>
+        <tr>
+            <td>excle13</td>
+            <td>excle14</td>
+            <!-- <td>excle15</td> -->
+            <td>excle16</td>
+        </tr>
+        <tr>
+            <td>excle17</td>
+            <td>excle18</td>
+            <!-- <td>excle19</td> -->
+            <td>excle20</td>
+        </tr>
+       </table>
+</body>
+</html>
